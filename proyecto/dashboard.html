@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Integralia - Login</title>
+
+  <!-- CSS  -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
+  <link rel="stylesheet" media="screen,projection" href="assets/css/materialize.css" type="text/css"  />
+  <link rel="stylesheet" media="screen,projection" href="assets/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="assets/libs/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <!-- meun para todo el codigo -->
+<div class="menu">
+    <div class="row cabezera">
+      <div class="col s6">
+        <img alt="" src="logoIntegralia.png" style="max-height: 50px;" />
+      </div>
+      <div class=" col s6">
+        <a class="btn right" href="#">Mi cuenta</a>
+      </div>
+    </div>
+
+    <div class=" menu" >
+      <nav>
+        <div class="nav-wrapper">
+           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li ><a href="#test1">Proceso legislativo</a></li>
+            <li ><a class="active" href="#test2">Legisladores</a></li>
+            <li ><a href="#test3">Graficas</a></li>
+            <li ><a href="#test4">Seguimmiento legislativo local</a></li>
+            <li ><a href="#test4">Reportes</a></li>
+            <li ><a href="#test4">Modulo Administración</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li ><a href="#test1">Proceso legislativo</a></li>
+            <li ><a class="active" href="#test2">Legisladores</a></li>
+            <li ><a href="#test3">Graficas</a></li>
+            <li ><a href="#test4">Seguimmiento legislativo local</a></li>
+            <li ><a href="#test4">Reportes</a></li>
+            <li ><a href="#test4">Modulo Administración</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+
+</div>
+<div class="contenedor" style="height:1800px">
+<!-- migajas de pan -->
+  <div class="row migas">
+    <div class="col s12">
+      <i class="fa fa-home fa-lg" aria-hidden="true"> / </i><span> Proceso legislativo</span>
+    </div>
+  </div>
+  <div class="row botonera">
+      <div class="col s3">
+        <a href="#" class="waves-effect waves-light btn-large active">Búsqueda de asuntos legislativos</a>
+      </div>
+      <div class="col s3">
+        <a href="#" class="waves-effect waves-light btn-large">Registrar nuevo asuntos legislativos</a>
+      </div>
+      <div class="col s3">
+        <a href="#" class="waves-effect waves-light btn-large">Actualizar asuntos legislativos existente</a>
+      </div>
+      <div class="col s3">
+        <a href="#" class="waves-effect waves-light btn-large">Catálogo</a>
+      </div>
+  </div>
+
+  <div class="row busqueda">
+    <div class="col s12"><h1>Busqueda de proceso legislativo<h1></div>
+    <div class="campos_f1">
+      <div class="col s3">
+        <label for="">Nombre del asunto legislativo</label>
+        <input type="text" name="name" value="">
+      </div>
+      <div class="col s3">
+        <label for="">Tema</label>
+        <input type="text" name="name" value="">
+      </div>
+      <div class="col s3">
+        <label for="">Tipon de asunto</label>
+        <input type="text" name="name" value="">
+      </div>
+      <div class="col s3">
+        <label for="">Comisiones a las que fue turnado el asunto</label>
+        <input type="text" name="name" value="">
+      </div>
+    </div>
+    <div class="campos_f2">
+      <div class="col s3">
+        <label for="">Nombre del  legislador que lo presentó</label>
+        <input type="text" name="name" value="">
+      </div>
+
+      <div class="col s1">
+        <label for="">Partido politico</label>
+        <input type="text" name="name" value="">
+      </div>
+      <div class="col s3">
+        <label for="">Legislatura</label>
+        <input type="text" name="name" value="">
+      </div>
+
+      <div class="col s1">
+        <label for="">Rango </label>
+        <input type="text" name="name" value="">
+      </div>
+      <div class="col s1">
+        <label for="">temporal</label>
+        <input type="text" name="name" value="">
+      </div>
+      <div class="col s3">
+        <label for="">Nombre del capturista</label>
+        <input type="text" name="name" value="">
+      </div>
+    </div>
+    <div class="col s12">
+      <a class="waves-effect waves-light btn-large"><i class="material-icons left">search</i>Buscar asunto</a>
+    </div>
+
+  </div>
+
+  <div class="resultados row">
+    <div class="col s12"><h1>Resultados</h1></div>
+      <div class="col s12">
+        <table class="striped">
+          <thead>
+            <tr>
+                <th >Nombre del asunto legislativo</th>
+                <th >Tema</th>
+                <th >Tipo de presentador</th>
+                <th>Nombre de los presentadores</th>
+                <th >Partido político</th>
+                <th >Fecha</th>
+                <th >Etapa</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="primera">Que reforma el articulo 4to de la Ley<br> Orgánica de la Sociedad Hipotecaria <br>Federal.</td>
+              <td>Lorem ipsum dolor sit amet</td>
+              <td>Lorem ipsum dolor sit amet</td>
+              <td>José Reina Lizárraga</td>
+              <td>PRD</td>
+              <td>20 nov, 2016</td>
+              <td>Presentación</td>
+            </tr>
+            <tr>
+              <td class="primera">Que reforma el articulo 4to de la Ley<br> Orgánica de la Sociedad Hipotecaria <br>Federal.</td>
+              <td>Lorem ipsum dolor sit amet</td>
+              <td>Lorem ipsum dolor sit amet</td>
+              <td>José Reina Lizárraga</td>
+              <td>PRD</td>
+              <td>20 nov, 2016</td>
+              <td>Presentación</td>
+            </tr>
+            <tr>
+              <td class="primera">Que reforma el articulo 4to de la Ley<br> Orgánica de la Sociedad Hipotecaria <br>Federal.</td>
+              <td>Lorem ipsum dolor sit amet</td>
+              <td>Lorem ipsum dolor sit amet</td>
+              <td>José Reina Lizárraga</td>
+              <td>PRD</td>
+              <td>20 nov, 2016</td>
+              <td>Presentación</td>
+            </tr>
+            <tr>
+              <td class="primera">Que reforma el articulo 4to de la Ley<br> Orgánica de la Sociedad Hipotecaria <br>Federal.</td>
+              <td>Lorem ipsum dolor sit amet</td>
+              <td>Lorem ipsum dolor sit amet</td>
+              <td>José Reina Lizárraga</td>
+              <td>PRD</td>
+              <td>20 nov, 2016</td>
+              <td>Presentación</td>
+            </tr>
+            <tr>
+              <td class="primera">Que reforma el articulo 4to de la Ley<br> Orgánica de la Sociedad Hipotecaria <br>Federal.</td>
+              <td>Lorem ipsum dolor sit amet</td>
+              <td>Lorem ipsum dolor sit amet</td>
+              <td>José Reina Lizárraga</td>
+              <td>PRD</td>
+              <td>20 nov, 2016</td>
+              <td>Presentación</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <ul class="pagination center">
+          <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+          <li class="active"><a href="#!">1</a></li>
+          <li class="waves-effect"><a href="#!">2</a></li>
+          <li class="waves-effect"><a href="#!">3</a></li>
+          <li class="waves-effect"><a href="#!">4</a></li>
+          <li class="waves-effect"><a href="#!">5</a></li>
+          <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+        </ul>
+
+      </div>
+  </div>
+</div>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="assets/js/materialize.js"></script>
+  <script src="assets/js/init.js"></script>
+
+  </body>
+</html>
