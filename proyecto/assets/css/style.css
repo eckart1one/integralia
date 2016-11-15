@@ -92,14 +92,23 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
     border: 1px solid #9e9e9e;
   }
 
+.resultados{
+  color: #a7a7a7;
+}
+
 .resultados h1{
   font-size: xx-large;
   font-weight: 300;
   color: #6b6b6b;
 }
 
-.resultados ul{
-  margin: 45px 0 10px 0;
+.resultados .paginas{
+  margin: 45px 0 45px 0;
+}
+
+.resultados .paginas ul{
+  position: relative;
+  left: 45%;
 }
 
 .resultados th{
@@ -107,12 +116,38 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 }
 
 .resultados th{
-color: #00aff2;
+color: #083975;
 }
 
 .resultados .primera{
-  color: #00aff2;
+  color: #4dc8f7;
 }
+
+.resultados tr:nth-child(n+1){
+  border-bottom: #4dc8f7 2px solid;
+}
+
+
+.resultados .paginas ul li {
+  padding: 15px;
+  border-top: grey 1px solid;
+  border-left: grey 1px solid;
+  border-bottom: grey 1px solid;
+  width: 50px;
+  float: left;
+}
+
+.paginas ul li:first-child{
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.paginas ul li:last-child{
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  border-right: grey 1px solid;
+}
+
 
 
 
